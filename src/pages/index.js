@@ -21,7 +21,7 @@ const IndexPage = ({data}) => (
 
       <HeroSection
       img = {data.img.childImageSharp.fluid}
-      title=" I'm Hemanth Parupalli"
+      title=" "
       caption='Graduate Teaching Assistant at Dalhousie university'
       heroclass="text-background"
       />
