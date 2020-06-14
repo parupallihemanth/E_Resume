@@ -1,0 +1,25 @@
+.bg-theme{
+  background-color: #F1F0EA;
+}
+img{
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.cart-icons{
+  
+  width:30px;
+  height: 30px;
+  /* position: fixed; */
+  
+}
+
+.text-background{
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
