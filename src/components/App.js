@@ -21,7 +21,7 @@ const App = () => {
       <Route  path="/about"           component={About}/>
       <Route  path="/skills"          component={Skills}/>
       <Route  path = '/contact'       component={Contact} />
-      <Route component={() => <p> Sorry, page not found</p>}/>
+      {/* <Route component={() => <p> Sorry, page not found</p>}/> */}
       </Switch>
       </BrowserRouter>
       
