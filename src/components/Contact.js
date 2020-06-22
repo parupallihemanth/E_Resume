@@ -186,8 +186,8 @@ const Contact = () =>{
                 disabled={
                     name.length === 0 ||
                     message.length === 0 ||
-                    phoneHelper.length === 0 ||
-                    emailHelper.length === 0
+                    phoneHelper.length !== 0 ||
+                    emailHelper.length !== 0
                 }
                 type="submit"
                 >Send message
