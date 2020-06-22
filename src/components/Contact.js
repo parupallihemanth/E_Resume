@@ -122,7 +122,7 @@ const Contact = () =>{
                 
 
 
-            <Grid  item container style={{ maxWidth:"20em"}} style={{ marginTop : '5em'}}>
+            <Grid  item container style={{ maxWidth:"20em",marginTop : '5em'}}>
                 <form action="https://formspree.io/babuparupalli@gmail.com" method="POST">
 
                 

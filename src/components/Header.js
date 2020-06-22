@@ -16,7 +16,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles( theme => ({
     toolbarMargin : {
