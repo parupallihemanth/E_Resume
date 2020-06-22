@@ -1,0 +1,79 @@
+return(
+        <Grid container direction="row">
+            <Grid item container direction="column" alignItems="center" justify="center" lg={5} >
+                <Grid item >
+
+                    <Grid container direction="column">
+                    <Grid item>
+                    <Typography variant="h3" className={classes.title}>Contact</Typography>
+
+                </Grid>
+
+
+            <Grid item container style={{ maxWidth:"20em"}} >
+                <Grid item>
+                <TextField 
+                label="Name" 
+                id="name"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+                />
+                </Grid>
+                <Grid item>
+                <TextField 
+                label="Email" 
+                error ={ emailHelper.length !== 0}
+                helperText ={emailHelper}
+                id="email"
+                value={email}
+                onChange={onChange}
+
+                />
+                </Grid>
+                <Grid item>
+                <TextField 
+                label="Phone" 
+                error = { phoneHelper.length !== 0}
+                helperText={phoneHelper}
+                id="phone"
+                value={phone}
+                onChange={onChange}
+
+                />
+                </Grid>
+            </Grid>
+            <Grid item style={{ maxWidth:"20em"}}>
+                <TextField
+                className={classes.message}
+                multiline
+                InputProps={{ disableUnderline: true }}
+                rows={8}
+                id = "message"
+                value= {message}
+                onChange={(event) => setMessage(event.target.value)}
+
+                />
+
+            </Grid>
+            <Grid item  >
+                <Button variant="contained" 
+                style={{ textTransform:"none", background: theme.palette.common.Green, marginTop:'1em', borderRadius: 50}}
+                onClick = {onSend}
+                >Send message
+                <img src={airplane} alt="send" style={{ marginLeft:'0.5em'}}/>
+                
+                </Button>
+            </Grid>
+
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+
+            <Grid item container lg={7}>
+
+            </Grid>
+
+        </Grid>
+    )
