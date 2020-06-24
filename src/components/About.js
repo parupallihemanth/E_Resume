@@ -72,7 +72,7 @@ const About = () => {
             <Grid item >
             <Typography paragraph variant="body1" className={classes.about} align={ matchMD ? "center" : undefined}>
                 " I am a student full-stack developer with a flair for creating elegant software solutions in the least amout of time. { matchMD ? undefined: <br />}
-                Experienced in all stages of development cycle staring from requirements gathering, designing, writing { matchMD ? undefined: <br />}  code, testing deployment.
+                Experienced in all stages of development cycle starting from requirements gathering, designing, writing { matchMD ? undefined: <br />}  code, testing deployment.
                 "
             </Typography>
             {/* <Typography paragraph variant="body2" className={classes.about} align={ matchMD ? "center" : undefined}>
